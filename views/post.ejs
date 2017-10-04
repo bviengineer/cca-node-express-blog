@@ -1,0 +1,13 @@
+<% include head %>
+    
+    <article><h2><%= model.title %></h2>
+    <p><strong>Author: </strong><%= model.author %><br>
+    <strong>Date: </strong><%= model.pubDate %></p>
+    <br>
+    <p><%- model.content %></p>
+    </article>
+    <hr>
+
+<% include body %>
+
+<% include footer %>
