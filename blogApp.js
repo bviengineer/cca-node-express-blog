@@ -154,6 +154,3 @@ app.get("/html", (req, res) => {
 app.listen(3000);
 console.log("The server is runnig on port 3000");
 readSubmissionMessages();
-
-.00
-+
