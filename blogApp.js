@@ -15,7 +15,7 @@ const express = require("express"),
 //const cool = require('cool-ascii-faces')
 //const express = require('express')
 //const path = require('path')
-const PORT = process.env.PORT || 5000 
+const port = process.env.PORT || 5000 
 
 //Blog repository related 
 var router = express.Router();
