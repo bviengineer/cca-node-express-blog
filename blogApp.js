@@ -10,7 +10,12 @@ const express = require("express"),
     fileName = path.join(__dirname,"messages/customerMessages.json"), //file will hold form submission messages
     app = express();
 
-var port = process.env.port || 3000; 
+//var port = process.env.port || 3000; 
+
+//const cool = require('cool-ascii-faces')
+//const express = require('express')
+//const path = require('path')
+const PORT = process.env.PORT || 5000 
 
 //Blog repository related 
 var router = express.Router();
